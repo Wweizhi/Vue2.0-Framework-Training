@@ -16,11 +16,6 @@ export default {
 	},
 	methods: {},
 	components: {},
-	watch: {
-		'$route' (to, from){
-			console.log(to, from)
-		}
-	},
 }
 </script>
 

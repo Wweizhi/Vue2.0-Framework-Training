@@ -19,6 +19,11 @@ export default new Router({
 			component: () => System.import('../views/routerDemos.vue')
 		},
 		{
+			path: '/vuex/counter',
+			name: 'vuex',
+			component: () => System.import('../views/vuex-counter.vue') 
+		},
+		{
 			path: '*',
 			redirect: '/home'
 		}
