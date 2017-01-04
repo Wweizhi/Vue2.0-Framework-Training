@@ -11,7 +11,7 @@
 export default {
 	data() {
 		return {
-			title: 'Just a demo!'
+			title: 'Hi Vue2.0 Demos!'
 		}
 	},
 	methods: {},

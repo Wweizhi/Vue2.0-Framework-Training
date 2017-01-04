@@ -24,6 +24,11 @@ export default new Router({
 			component: () => System.import('../views/vuex-counter.vue') 
 		},
 		{
+			path: '/vue-rx',
+			name: 'vueRx',
+			component: () => System.import('../views/vue-rx-demo.vue')
+		},
+		{
 			path: '*',
 			redirect: '/home'
 		}
